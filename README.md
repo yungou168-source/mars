@@ -11,7 +11,12 @@
 
 ## Windows 客户端
 
-从 [Releases](../../releases) 下载与系统架构匹配的安装包，并用同一 Release 中的 `SHA256SUMS.txt` 校验文件完整性。下载地址只应来自本仓库的已发布 Release。
+Windows 客户端以二进制形式发布，客户端源代码不在此仓库。当前稳定版本为 [`v1.0.0`](../../releases/tag/v1.0.0)：
+
+- [x64 安装包](../../releases/download/v1.0.0/mars-1.0.0-64.exe)，SHA-256：`66f272ea6b640f34bbe3d44bd60acfd63be499dcfb034cfe4a1e2ff6e33be47c`
+- [x86 安装包](../../releases/download/v1.0.0/mars-1.0.0-32.exe)，SHA-256：`d949f8e3d8ef5cb9a8e1e71d708a584ab34f35f543f6bc41eec4b7196ff6d61b`
+
+下载后请使用同一 Release 的 `SHA256SUMS.txt` 校验文件完整性。下载地址只应来自本仓库的已发布 Release。
 
 ## 插件与技能
 
