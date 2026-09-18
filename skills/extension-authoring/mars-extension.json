@@ -1,0 +1,14 @@
+{
+  "id": "extension-authoring",
+  "version": "1.0.0",
+  "type": "skill",
+  "name": "Extension authoring",
+  "description": "Create auditable Mars AI extension packages.",
+  "license": "MIT",
+  "source": "https://github.com/yungou168-source/mars",
+  "skillsDirectory": "skills",
+  "permissions": [],
+  "compatibility": "mars-ai >= 1.0.0",
+  "tags": ["authoring", "security"],
+  "integrity": { "files": { "skills/SKILL.md": "7ee90cd2a42e137639a852e726baa2ce262e96b93df4a60e8221f50ebc9026f0" } }
+}

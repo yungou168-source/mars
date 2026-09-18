@@ -1,0 +1,40 @@
+{
+  "name": "@sovereign-nation/snf-welfare",
+  "version": "1.0.0",
+  "description": "Welfare & UBI system — universal basic income distribution, social security, pensions",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "dev": "tsc --build --watch",
+    "test": "echo \"Tests not configured\"",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "sovereign-nation",
+    "plugin",
+    "welfare",
+    "ubi",
+    "social-security"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@sovereign-nation/core": "workspace:*",
+    "typescript": "^5.4.0"
+  },
+  "peerDependencies": {
+    "@sovereign-nation/core": "^1.0.0"
+  }
+}

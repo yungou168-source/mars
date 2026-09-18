@@ -1,0 +1,40 @@
+{
+  "name": "@sovereign-nation/snf-jobs",
+  "version": "1.0.0",
+  "description": "Job market system — job listings, applications, employment records",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "dev": "tsc --build --watch",
+    "test": "echo \"Tests not configured\"",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "sovereign-nation",
+    "plugin",
+    "jobs",
+    "employment",
+    "job-market"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@sovereign-nation/core": "workspace:*",
+    "typescript": "^5.4.0"
+  },
+  "peerDependencies": {
+    "@sovereign-nation/core": "^1.0.0"
+  }
+}

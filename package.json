@@ -1,0 +1,12 @@
+{
+  "name": "mars-ai-extensions",
+  "private": true,
+  "packageManager": "pnpm@9.1.0",
+  "scripts": {
+    "typecheck": "pnpm --filter @sovereign-nation/core typecheck",
+    "verify": "node scripts/verify-public-repository.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
