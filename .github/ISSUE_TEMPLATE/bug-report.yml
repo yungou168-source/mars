@@ -1,0 +1,26 @@
+name: 可复现问题
+description: 报告非安全问题、文档错误或安装校验问题
+title: "[问题] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "安全漏洞请遵循 SECURITY.md 私下报告。不要公开凭据、用户数据、私有地址或可直接利用的细节。"
+  - type: textarea
+    id: summary
+    attributes:
+      label: 问题说明
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 最小复现步骤
+      description: 包含版本、操作系统、实际结果和预期结果。
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: 已完成的检查
+      description: 如适用，请说明 Release 版本、安装包架构和 SHA-256 校验结果。
